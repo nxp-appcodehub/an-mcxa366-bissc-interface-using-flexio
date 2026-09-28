@@ -1,0 +1,52 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-08-28T03:37:43Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.28"
+  },
+  "name": "an-mcxa366-bissc-interface-using-flexio",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/a463cf3e-5697-46ff-b72d-b8821eb77763",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-a463cf3e-5697-46ff-b72d-b8821eb77763",
+      "name": "an-mcxa366-bissc-interface-using-flexio",
+      "versionInfo": "1.0",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
+      "downloadLocation": "https://github.com/nxp-appcodehub/an-mcxa366-bissc-interface-using-flexio",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-a463cf3e-5697-46ff-b72d-b8821eb77763---1ffe6406-89b4-415b-9902-0d6549960424",
+      "name": "ARM-software/CMSIS_6",
+      "versionInfo": "v6.1.0",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: ARM-software/CMSIS_6",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-a463cf3e-5697-46ff-b72d-b8821eb77763"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-a463cf3e-5697-46ff-b72d-b8821eb77763",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-a463cf3e-5697-46ff-b72d-b8821eb77763---1ffe6406-89b4-415b-9902-0d6549960424"
+    }
+  ]
+}
